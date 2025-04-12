@@ -1,0 +1,513 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.landing{
+    height: auto;
+    width: 100%;
+     /* border: 1px solid black; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.innerlanding{
+    height: 100%;
+    width: 95%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.landingtitle{
+    height: 10%;
+    width: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 20px;
+}
+
+.landingdetails{
+    height: 85%;
+    width: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.lmain{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;  */
+}
+
+.lleft{
+    height: 100%;
+    width: 49%;
+    /* border: 1px solid black; */
+}
+
+
+.leftinner1{
+    height: 280px;
+    width: 100%;
+    /* border: 4px solid green; */
+    display: flex;
+}
+.leftinner2{
+    height: 130px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.leftdown1{
+    height: 50%;
+    width: 220px;
+    /* border:1px solid violet; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.leftdown1 input{
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+}
+.ldown1inner{
+    height: 100%;
+    width: 80px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftdown2{
+    height: 50%;
+    width: 210px;
+    /* border:1px solid violet; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.limg{
+    height: 95%;
+    width: 52%;
+    /* border: 1px solid blue; */
+}
+.limg img{
+    height: 100%;
+    width: 100%;
+}
+
+.ltext{
+    height: 95%;
+    width: 48%;
+    /* border: 1px solid blue; */
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.tt{
+    height:70% ;
+    width: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.lbut{
+    height: 20%;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+/* .lbut button{
+    height: 90%;
+    width: 50%;
+    font-size: 17px;
+} */
+
+.lbut .llink{
+    height: 90%;
+    width: 200px;
+    font-size: 22px;
+    text-decoration: none;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+
+.lright{
+    /* height: 410px; */
+    width: 49%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bill{
+    height: 10%;
+    width: 100%;
+    /* border: 1px solid red; */
+    font-size: 20px;
+}
+
+.lright .mainbill{
+    height: 87%;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+}
+
+.billup{
+    height: 50%;
+    width: 100%;
+    /* border: 2px solid orange; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.billform{
+    height: 100%;
+    width: 49%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.billform2{
+    height: 100%;
+    width: 49%;
+    /* border: 2px solid green; */
+}
+.billinput1{
+    height: 44px;
+    width: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+.billinput1 input{
+    width: 95%;
+    padding: 3px;
+}
+
+.address{
+    height: 100%;
+    width: auto;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+}
+textarea{
+    width: 90%;
+    padding: 5px;
+}
+
+.billdown{
+    height: 48%;
+    width: 100%;
+    /* border: 1px solid green; */
+}
+.bdown1{
+    height: 15%;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.bdown2{
+    height: 55%;
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+.bdown2input{
+    height: 32%;
+    width: 40%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 20px;
+}
+.bdown3{
+    height: 28%;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bdown3 .llink{
+    height: 90%;
+    width: 25%;
+    font-size: 22px;
+    text-decoration: none;
+    background-color:rgb(25, 25, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+.bdown3 button{
+    height: 90%;
+    width: 30%;
+    /* border: 1px solid red; */
+    background-color:rgb(25, 25, 245);
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    border: none;
+}
+
+
+@media (max-width:950px){
+    .lmain{
+        flex-direction: column;
+        /* gap: 10px; */
+    }
+    .lleft{
+        height: 60vh;
+        width: 100%;
+    }
+    .lright{
+        height: 90vh;
+        width: 100%;
+    }
+    .bill{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .tt{
+        font-size: 5.2vw;
+    }
+    .leftdown1{
+        width: 250px;
+    }
+    .leftdown2{
+        width: 250px;
+    }
+    .leftinner2 h2{
+        font-size: 3.2vw;
+    }
+
+    .billform h5{
+        font-size: 2vw;
+    }
+    .billform input{
+        font-size: 2vw;
+    }
+    .billform2 h5{
+        font-size: 3vw;
+    }
+    .bdown1 h3{
+        font-size: 2.8vw;
+    }
+    .bdown2 input{
+        height: 18px;
+        width: 18px;
+    }
+    .bdown2 h5{
+        font-size: 2.3vw;
+    }
+}
+
+@media (max-width:800px){
+    .leftinner2 h2{
+        font-size: 3.7vw;
+    }
+
+
+    .lright{
+        height: 80vh;
+        width: 100%;
+    }
+    .billform h5{
+        font-size: 2.5vw;
+    }
+    .billform input{
+        font-size: 2.2vw;
+    }
+    .billform2 h5{
+        font-size: 3.5vw;
+    }
+    .bdown1 h3{
+        font-size: 2.8vw;
+    }
+    .bdown2 input{
+        height: 18px;
+        width: 18px;
+    }
+    .bdown2 h5{
+        font-size: 2.3vw;
+    }
+
+    
+}
+
+@media (max-width:700px){
+
+    .lright{
+        height: auto;
+        width: 100%;
+    }
+    .billup{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .billform{
+        height: 70%;
+        width: 100%;
+        flex-direction: column;
+        gap: 5px;
+    }
+   
+    .billform2{
+        height: 30%;
+        width: 100%;
+    }
+
+    .billdown{
+        height: auto;
+        width: 100%;
+        /* border: 3px solid red; */
+    }
+    .bdown1 h3{
+        font-size: 4.3vw;
+    }
+    .bdown2{
+        height: 150px;
+    }
+    .bdown2 h5{
+        font-size: 3.5vw;
+    }
+    .bdown3{
+        height: 60px;
+    }
+    .bdown3 button{
+        width: 200px;
+    }
+}
+
+
+@media (max-width:600px){
+
+    .lright{
+        height: auto;
+        width: 100%;
+    }
+    .leftinner2 h2{
+        font-size: 4.5vw;
+    }
+
+    .billform h5{
+        font-size: 2.9vw;
+    }
+    .billform input{
+        font-size: 2.3vw;
+    }
+    .billform2 h5{
+        font-size: 3.5vw;
+    }
+    .bdown1 h3{
+        font-size: 4.5vw;
+    }
+    .bdown2 input{
+        height: 18px;
+        width: 18px;
+    }
+    .bdown2 h5{
+        font-size: 3.3vw;
+    }
+}
+
+@media (max-width:500px){
+    .lright{
+        height: auto;
+    }
+
+    .billform input{
+        font-size: 2.5vw;
+    }
+    .billform h5{
+        font-size: 3.5vw;
+    }
+    .bdown1 h3{
+        font-size: 5.5vw;
+    }
+    .bdown2 h5{
+        font-size: 3.9vw;
+    }
+    .bdown2input{
+        width: 200px;
+    }
+}
+
+
+@media (max-width:450px){
+
+   
+    .lright{
+        height: auto;
+    }
+
+    .billform input{
+        font-size: 2.8vw;
+    }
+    .billform h5{
+        font-size: 3.9vw;
+    }
+    .billform2 h5{
+        font-size: 5vw;
+    }
+    .bdown1 h3{
+        font-size: 6.5vw;
+    }
+    .bdown2 h5{
+        font-size: 4.4vw;
+    }
+    .bdown2input{
+        width: 200px;
+    }
+}

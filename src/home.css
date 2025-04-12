@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainhome{
+    height: 70vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home{
+    height: 90%;
+    width: 90%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.homeduplicate{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    /* gap: 30px; */
+    background-color:rgba(245, 247, 248, 0.905) ;
+    animation: home 15s infinite;
+    animation-delay: 2s;
+    overflow: hidden;
+}
+
+.slideimg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* border: 2px solid green; */
+    /* animation: homeslide 9s infinite; */
+}
+.slideimg img{
+    height: 100%;
+    width: 75%;
+    /* border: 1px solid black */
+}
+
+.slidetext{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    background-color: rgba(245, 247, 248, 0.905);
+}
+.slidetext h2{
+    font-size: 35px;
+}
+.slidetext p{
+    font-size: 15px;
+    color: grey;
+}
+.slidebut{
+    height: 80px;
+    width: 150px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.slidebut button{
+    height: 50%;
+    width: 120px;
+    border-radius: 10px;
+    background-color: blue;
+    color: rgba(243,246,251,255);
+    border: none;
+}
+
+
+@media (max-width:960px){
+    .slideimg{
+        /* overflow: hidden; */
+        flex-direction:column ;
+    }
+    .slideimg img{
+        height: 50%;
+        width: 100%;
+    }
+    .slidetext{
+        height: 50%;
+        width: 100%;
+    }
+    .home{
+        height: 95%;
+        width: 95%;
+    }
+}

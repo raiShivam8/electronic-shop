@@ -1,0 +1,242 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.page{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.innerpage1{
+    height: 100vh;
+    width: 100vw;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gmap{
+    height: 85%;
+    width: 90%;
+    /* border: 1px solid red; */
+}
+iframe{
+    height: 100%;
+    width: 100%;
+}
+
+.innerpage2{
+    height: 110vh;
+    width: 100vw;
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page2page{
+    height: auto;
+    width: 90%;
+    /* border: 2px solid red; */
+    display: flex;
+    
+}
+
+.page2pageinner1{
+    height: 85vh;
+    width: 50%;
+    /* border: 1px solid blue; */
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 10px;
+    align-items: start;
+    flex-direction: column;
+}
+.page2pageinner1 h1{
+    font-size: 55px;
+}
+.pagetxt{
+    height: 30%;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: grey;
+}
+.page2txt{
+    height: 40%;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.page2txtlogo{
+    height: 18%;
+    width: 100%;
+    /* border: 1px solid blue; */
+   
+}
+.lp{
+    height: 100%;
+    width: 180px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    transition: 0.5s;
+}
+.lp2{
+    height: 100%;
+    width: 320px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    transition: 0.5s;
+}
+.plogo{
+    font-size: 30px;
+    color: black;
+    transition: 0.5s;
+}
+
+.page2txtlogo:hover .plogo{
+    color: blue;
+}
+.page2txtlogo:hover .lp{
+    color: black;
+}
+.page2txtlogo:hover .lp2{
+    color: black;
+}
+.plogo:hover{
+    cursor: pointer;
+}
+.lp:hover{
+    cursor: pointer;
+}
+.lp2:hover{
+    cursor: pointer;
+}
+.page2txtlogo2{
+    height: 30%;
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+.headphones{
+    height: 100%;
+    width: 300px;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    color: grey;
+    transition: 0.5s;
+}
+.headphones:hover{
+    cursor: pointer;
+}
+.plogo2{
+    font-size: 45px;
+    color: black;
+    transition: 0.5s;
+}
+.plogo2:hover{
+    cursor: pointer;
+}
+.page2txtlogo2:hover .headphones{
+    color: black;
+}
+.page2txtlogo2:hover .plogo2{
+    color: blue;
+}
+
+.page2pageinner2{
+    height: 85vh;
+    width: 50%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+    
+}
+form{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+}
+.page2pageinner2 form textarea{
+    height: 43%;
+    width: 97%;
+    border-radius: 5px;
+    padding: 5px;
+    border:0.5px solid black;
+    outline-color:blue;
+}
+.page2pageinner2 form input{
+    height: 10%;
+    width: 97%;
+    border-radius: 5px;
+    padding: 5px;
+    border:0.5px solid black;
+    outline-color:blue;
+}
+.page2pageinner2 form button{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+
+
+@media (max-width:880px){
+    .innerpage2{
+        height: auto;
+        width: 100%;
+    }
+
+    .page2page{
+        width: 90%;
+        flex-direction: column;
+    }
+    .page2pageinner1{
+        width: 100%;
+    }
+    .page2pageinner1 h1{
+        font-size: 8vw;
+    }
+    .pagetxt{
+        height: 40%;
+    }
+    .page2pageinner2{
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width:359px){
+    .pagetxt{
+        height: 50%;
+    }
+    .lp2 {
+        width: 100%;
+        font-size: 4.5vw;
+    }
+}

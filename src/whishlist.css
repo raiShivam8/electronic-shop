@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.whishmain{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.whishinner{
+    height: 100%;
+    width: 95%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.whishpro{
+    height: 310px;
+    width: 270px;
+    border: 1px solid black;
+    flex-shrink: 0;
+    border-radius: 5px;
+}
+
+
+.imgtxt{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+}
+
+.imgtxt img{
+    height: 65%;
+    width: 100%;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+}
+
+.whishbut{
+    height: 12%;
+    width: 100%;
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.whishlibutt{
+    height: 90%;
+    width: 45%;
+    font-size: 20px;
+    background-color: orangered;
+    color: white;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+}

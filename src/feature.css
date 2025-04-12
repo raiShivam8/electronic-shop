@@ -1,0 +1,214 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.feature {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.innerfeature {
+    height: 100%;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    /* border: 1px solid blue; */
+}
+
+.innerh2 {
+    height: 13%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 1px solid green; */
+}
+
+.innerf {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* border: 1px solid blue; */
+
+}
+
+.fmain{
+    height: 325px;
+    width: 270px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.fmaintool{
+    height: 9%;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.imgtxtmain{
+    height: 90%;
+    width: 100%;
+    /* border: 2px solid blue; */
+    position: relative;
+    overflow: hidden;
+    
+}
+
+
+.fimgtxt{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* border: 1.5px solid palevioletred; */
+    background-color: white;
+    z-index: 2;
+    transition: 0.5s;
+}
+.imgtxtmain:hover .fimgtxt{
+    transform: translateY(-35px);  
+}
+
+.fimg{
+    height: 72%;
+    width: 100%;
+    /* border: 1px solid purple; */
+}
+.fimg img{
+    height: 100%;
+    width: 100%;
+}
+.ftxt{
+    height: 28%;
+    width: 100%;
+    /* border: 1px solid green; */
+}
+.butf{
+    position: absolute;
+    bottom: 0px;
+    height: 15%;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: blue;
+   flex-shrink: 0;
+    border-radius: 5px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.butf button{
+    height: 100%;
+    width: 100%;
+    font-size: 17px;
+    background: transparent;
+    color: white;
+    border: none;
+    /* display: flex;
+    justify-content: center;
+    align-items: end; */
+}
+
+
+
+.filtermain{
+    height: 325px;
+    width: 270px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.filtermaintool{
+    height: 9%;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.filterimgtxtmain{
+    height: 90%;
+    width: 100%;
+    /* border: 2px solid blue; */
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.filterimgtxt{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* border: 1.5px solid palevioletred; */
+    background-color: white;
+    z-index: 2;
+    transition: 0.5s;
+}
+.filterimgtxtmain:hover .filterimgtxt{
+    transform: translateY(-35px);
+}
+
+.filterimg{
+    height: 72%;
+    width: 100%;
+    /* border: 1px solid purple; */
+}
+.filterimg img{
+    height: 100%;
+    width: 100%;
+}
+.filtertxt{
+    height: 28%;
+    width: 100%;
+    /* border: 1px solid green; */
+}
+.butfilter{
+    position: absolute;
+    bottom: 0px;
+    height: 15%;
+    width: 100%;
+    background-color: blue;
+   flex-shrink: 0;
+    border-radius: 5px;
+    z-index: 1;
+   
+}
+.butfilter button{
+    height: 100%;
+    width: 100%;
+    font-size: 17px;
+    background: transparent;
+    color: white;
+    border: none;
+}
+
+
+
+@media (max-width:858px) {
+    .innerf {
+        justify-content: space-around;
+    }
+}
