@@ -37,6 +37,7 @@
     overflow: hidden;
 }
 
+
 .blog2{
    height: 100%;
    width: 100%;
@@ -46,6 +47,8 @@
    animation: side 15s  infinite;
    animation-delay: 2s;
 }
+
+
 
 .mblog{
     height: 100%;
