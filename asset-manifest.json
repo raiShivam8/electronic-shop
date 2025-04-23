@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/electronic-shop/static/css/main.fb24acdd.css",
+    "main.js": "/electronic-shop/static/js/main.188c42a5.js",
+    "static/js/488.ef9867a1.chunk.js": "/electronic-shop/static/js/488.ef9867a1.chunk.js",
+    "static/media/shop8.png": "/electronic-shop/static/media/shop8.4e69d390f05a069efd71.png",
+    "static/media/main3.jpg": "/electronic-shop/static/media/main3.9e8c6176bdb028eabf7e.jpg",
+    "static/media/main2.jpg": "/electronic-shop/static/media/main2.1b1ffe31d7d34fbf791a.jpg",
+    "static/media/main1.jpg": "/electronic-shop/static/media/main1.aca7d6b1cf4ce02fa592.jpg",
+    "static/media/shop10.jpg": "/electronic-shop/static/media/shop10.4b09b276e9bce17816c6.jpg",
+    "static/media/tv1.jpg": "/electronic-shop/static/media/tv1.4b09b276e9bce17816c6.jpg",
+    "static/media/blog5.jpg": "/electronic-shop/static/media/blog5.53f30d49a86966e91205.jpg",
+    "static/media/shop5.jpg": "/electronic-shop/static/media/shop5.7d8c3597d61106e4fc30.jpg",
+    "static/media/printer.jpg": "/electronic-shop/static/media/printer.a207a3baa4634a5e9ea4.jpg",
+    "static/media/blog1.jpg": "/electronic-shop/static/media/blog1.cd2ce8196a5c8e8e4f7e.jpg",
+    "static/media/shop6.jpg": "/electronic-shop/static/media/shop6.809d005b4b6b65092d53.jpg",
+    "static/media/drone.jpg": "/electronic-shop/static/media/drone.99a44afda5e4f5cf5d6f.jpg",
+    "static/media/mouse.jpg": "/electronic-shop/static/media/mouse.f61ac8385a89ea0d6dce.jpg",
+    "static/media/shop2.jpg": "/electronic-shop/static/media/shop2.f61ac8385a89ea0d6dce.jpg",
+    "static/media/blog3.jpg": "/electronic-shop/static/media/blog3.e80f2a5a6e057eccd70e.jpg",
+    "static/media/blog2.jpg": "/electronic-shop/static/media/blog2.cd44feb4ab33c73f5588.jpg",
+    "static/media/shop7.jpg": "/electronic-shop/static/media/shop7.d32172e08c07dfa03dd9.jpg",
+    "static/media/headphones.jpg": "/electronic-shop/static/media/headphones.eb5dba1ae558100f336a.jpg",
+    "static/media/shop3.jpg": "/electronic-shop/static/media/shop3.f03b866e6388ca93636e.jpg",
+    "static/media/blog4.jpg": "/electronic-shop/static/media/blog4.ba5e6a05deda6981ea12.jpg",
+    "static/media/shop9.jpg": "/electronic-shop/static/media/shop9.01c6d49f96a0c0b6adbc.jpg",
+    "static/media/shop12.jpg": "/electronic-shop/static/media/shop12.9cbd2fd5b80f288e2a94.jpg",
+    "static/media/scooty.jpg": "/electronic-shop/static/media/scooty.d225a9405a9da22996e4.jpg",
+    "static/media/shop11.jpg": "/electronic-shop/static/media/shop11.2d0580ef4cbd99b1e542.jpg",
+    "static/media/tv2.jpg": "/electronic-shop/static/media/tv2.4ee799fe8fa4048d895b.jpg",
+    "static/media/buds.jpg": "/electronic-shop/static/media/buds.fe9b5e12c7f2e140d8b1.jpg",
+    "static/media/shop1.jpg": "/electronic-shop/static/media/shop1.fe9b5e12c7f2e140d8b1.jpg",
+    "index.html": "/electronic-shop/index.html",
+    "main.fb24acdd.css.map": "/electronic-shop/static/css/main.fb24acdd.css.map",
+    "main.188c42a5.js.map": "/electronic-shop/static/js/main.188c42a5.js.map",
+    "488.ef9867a1.chunk.js.map": "/electronic-shop/static/js/488.ef9867a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb24acdd.css",
+    "static/js/main.188c42a5.js"
+  ]
+}
