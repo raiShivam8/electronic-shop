@@ -62,7 +62,7 @@ function App() {
 
   const route = createBrowserRouter([
     {
-      path:'/',
+      path:'/electronic-shop',
       element:<>
        <Nav wh={whish} c={cplus} cnoti={cnoti} setsearch={setsearch} down2={down2} setdown2={setdown2} display1={display1} display2={display2} display3={display3} setdisplay={setdisplay} setdisplay2={setdisplay2} setdisplay3={setdisplay3}/>
         <Home/>
