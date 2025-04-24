@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/electronic-shop/static/css/main.fb24acdd.css",
-    "main.js": "/electronic-shop/static/js/main.939c20df.js",
+    "main.js": "/electronic-shop/static/js/main.7c852f32.js",
     "static/js/488.ef9867a1.chunk.js": "/electronic-shop/static/js/488.ef9867a1.chunk.js",
     "static/media/shop8.png": "/electronic-shop/static/media/shop8.4e69d390f05a069efd71.png",
     "static/media/main3.jpg": "/electronic-shop/static/media/main3.9e8c6176bdb028eabf7e.jpg",
@@ -32,11 +32,11 @@
     "static/media/shop1.jpg": "/electronic-shop/static/media/shop1.fe9b5e12c7f2e140d8b1.jpg",
     "index.html": "/electronic-shop/index.html",
     "main.fb24acdd.css.map": "/electronic-shop/static/css/main.fb24acdd.css.map",
-    "main.939c20df.js.map": "/electronic-shop/static/js/main.939c20df.js.map",
+    "main.7c852f32.js.map": "/electronic-shop/static/js/main.7c852f32.js.map",
     "488.ef9867a1.chunk.js.map": "/electronic-shop/static/js/488.ef9867a1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb24acdd.css",
-    "static/js/main.939c20df.js"
+    "static/js/main.7c852f32.js"
   ]
 }
